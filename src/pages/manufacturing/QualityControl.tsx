@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Plus, AlertTriangle } from 'lucide-react'
+import { Plus, TriangleAlert as AlertTriangle } from 'lucide-react'
 import { supabase } from '../../lib/supabase'
 
 interface QualityInspection {

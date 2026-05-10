@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Plus, Search, Package, AlertTriangle } from 'lucide-react'
+import { Plus, Search, Package, TriangleAlert as AlertTriangle } from 'lucide-react'
 import { supabase } from '../../lib/supabase'
 import { Inventory as Inv, Product } from '../../types'
 

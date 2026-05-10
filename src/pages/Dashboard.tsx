@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { TrendingUp, DollarSign, Users, Package, ShoppingCart, AlertCircle, ArrowUpRight, ArrowDownRight } from 'lucide-react'
+import { TrendingUp, DollarSign, Users, Package, ShoppingCart, CircleAlert as AlertCircle, ArrowUpRight, ArrowDownRight } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, PieChart, Pie, Cell } from 'recharts'
 

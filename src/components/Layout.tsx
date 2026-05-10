@@ -1,11 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
-import {
-  Building2, LayoutDashboard, BookOpen, CreditCard, FileText, Landmark,
-  Users, Clock, CalendarDays, Briefcase, Package, ShoppingCart, Truck,
-  UserCheck, TrendingUp, Factory, ClipboardList, Settings, Bell,
-  LogOut, ChevronDown, AlertTriangle
-} from 'lucide-react'
+import { Building2, LayoutDashboard, BookOpen, CreditCard, FileText, Landmark, Users, Clock, CalendarDays, Briefcase, Package, ShoppingCart, Truck, UserCheck, TrendingUp, Factory, ClipboardList, Settings, Bell, LogOut, ChevronDown, TriangleAlert as AlertTriangle } from 'lucide-react'
 import { supabase } from '../lib/supabase'
 import { User } from '@supabase/supabase-js'
 
